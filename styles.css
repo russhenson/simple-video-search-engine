@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap");
+
+body {
+  background-color: #000;
+  font-family: "Barlow", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fafafa;
+  max-width: 40%;
+
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 0 2em;
+}
+
+.title h1 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+/* Custom search box */
+.gsc-search-box {
+  position: relative;
+}
+
+.gsc-input-box {
+  border-radius: 6px;
+  padding: 0.4em;
+
+  border-color: transparent !important;
+}
+
+.gsc-input {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+}
+
+.gsib_b {
+  display: none;
+}
+
+table.gsc-search-box td.gsc-input {
+  padding: 0 1em !important;
+}
+
+/* Custom search button */
+.gsc-search-button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+
+  margin-left: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin-right: 1.8em !important;
+}
+
+.gsc-search-button svg {
+  fill: #2a8cff !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+/* remove clear button */
+.gsc-clear-button,
+.gsst_a .gscb_a {
+  display: none;
+}
+
+/* custom search results */
+.gsc-above-wrapper-area {
+  display: none;
+}
+
+.gsc-control-cse {
+  background-color: #fafafa !important;
+}
+
+.gsc-result {
+  border-radius: 6px;
+  height: 110px;
+
+  margin-bottom: 1em !important;
+}
+
+/* custom content inside each result */
+.gs-result {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.gsc-url-top,
+.gsc-table-cell-snippet-close {
+  display: none !important;
+}
+
+.gs-image-box {
+  width: 180px !important;
+  margin-left: 6px !important;
+}
+
+.gs-image {
+  background-size: cover;
+  border-radius: 6px;
+
+  min-width: 180px !important;
+  height: 100px !important;
+}
+
+.gs-title,
+.gs-title b {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: #000 !important;
+}
+
+/* custom buttom nav */
+.gsc-cursor-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+  border-radius: 6px;
+  height: 60px;
+
+  margin: 10px 0 !important;
+  margin-top: 2.5em !important;
+}
+
+.gsc-cursor-page {
+  display: none !important;
+}
+
+.gsc-cursor-current-page {
+  display: block !important;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  pointer-events: none;
+  color: #5d6067 !important;
+  margin: 0 !important;
+}
+
+/* search for on google */
+.gcsc-more-maybe-branding-root {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #fff;
+
+  margin: 1.5em 2.5em !important;
+  border-radius: 50px;
+
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  padding: 0.8em 0;
+}
